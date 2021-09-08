@@ -4232,7 +4232,7 @@ textarea.form-control-lg {
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: rgb(189, 37, 37);
   font-weight: bold;
 }
 .navbar-dark .navbar-toggler {
