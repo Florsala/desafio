@@ -162,3 +162,46 @@ $blanco: rgb(232, 231, 240) ;
     background-color: rgb(235, 44, 82);
 }
 
+/* contenedor de imagenes */
+
+.container{
+
+    margin-top: 250px;
+    width: 100%;
+    max-width: 1000px;
+    border: none;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+    grid-template-columns: 500px 300px ;
+    grid-template-areas: /* "faro  faro    lobos" */
+                          "faro   pnt"
+                          "faro   trekk"
+                          "andes   ush    "               
+        ;
+}
+
+
+
+.container .faro{
+    grid-area: faro;
+    height: 600px;
+
+}
+.container .lobos{
+    grid-area: lobos;
+}
+
+.container .andes{
+    grid-area: andes;
+}
+.container .ush{
+    grid-area: ush;
+}
+.container .trekk{
+    grid-area: trekk;
+}
+.container .pnt{
+    grid-area: pnt;
+}
