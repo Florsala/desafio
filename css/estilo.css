@@ -329,6 +329,11 @@ a.nav-link.active {
   .navbar {
     transform: translateY(-1%); } }
 
+@media only screen and (max-width: 1024px) {
+  /* iconos  */
+  .iconosHead__lista {
+    display: none; } }
+
 /*Pie de pagina*/
 .footer {
   margin-top: 150px;
@@ -782,5 +787,5 @@ body, html {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #e8e7f0;
   font-family: 'Open Sans Condensed', sans-serif;
-  background-color: #010c0c;
+  background-color: #000;
   font-size: 1rem; }
