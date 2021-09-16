@@ -129,7 +129,7 @@ $blanco: rgb(232, 231, 240) ;
     align-content: center;
     flex-wrap: wrap;
     margin-top: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 
  img{
     border-radius: 8px;
@@ -163,6 +163,21 @@ $blanco: rgb(232, 231, 240) ;
     transform: rotate(10deg);
     background-color: rgb(235, 44, 82);
 }
+
+
+/* texto central */
+.central{
+    width: 80%;
+    justify-content: center;
+}
+
+
+.central__text{
+    text-align: center;
+    margin: 100px;
+    font-size: 2rem;
+}
+
 
 /* contenedor de imagenes */
 

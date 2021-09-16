@@ -180,7 +180,7 @@ a.nav-link.active {
   align-content: center;
   flex-wrap: wrap;
   margin-top: 150px;
-  margin-bottom: 150px; }
+  margin-bottom: 100px; }
   .cardsContainer__tarjetas img {
     border-radius: 8px;
     object-fit: cover; }
@@ -205,6 +205,16 @@ a.nav-link.active {
 .cardsContainer__tarjetas:nth-child(3):hover {
   transform: rotate(10deg);
   background-color: #eb2c52; }
+
+/* texto central */
+.central {
+  width: 80%;
+  justify-content: center; }
+
+.central__text {
+  text-align: center;
+  margin: 100px;
+  font-size: 2rem; }
 
 /* contenedor de imagenes */
 .grid-container {
@@ -259,7 +269,7 @@ a.nav-link.active {
   .Formulario {
     font-size: 1.4rem; }
   .grid-container {
-    grid-template-columns: 350px; } }
+    grid-template-columns: 300px; } }
 
 @media only screen and (min-width: 769px) {
   .nav-item {
