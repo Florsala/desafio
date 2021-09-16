@@ -207,10 +207,10 @@ a.nav-link.active {
   background-color: #eb2c52; }
 
 /* contenedor de imagenes */
-.container {
+.grid-container {
   margin-top: 250px;
-  width: 100%;
-  max-width: 1000px;
+  /*  width: 100%; */
+  max-width: 100%;
   border: none;
   margin: 0 auto;
   display: grid;
@@ -219,23 +219,24 @@ a.nav-link.active {
   grid-template-columns: 500px 300px;
   grid-template-areas: "faro   pnt" "faro   trekk" "andes   ush    "; }
 
-.container .faro {
+.grid-container
+.grid-container .faro {
   grid-area: faro;
   height: 600px; }
+  .grid-container
+.grid-container .faro .img {
+    width: 100%; }
 
-.container .lobos {
-  grid-area: lobos; }
-
-.container .andes {
+.grid-container .andes {
   grid-area: andes; }
 
-.container .ush {
+.grid-container .ush {
   grid-area: ush; }
 
-.container .trekk {
+.grid-container .trekk {
   grid-area: trekk; }
 
-.container .pnt {
+.grid-container .pnt {
   grid-area: pnt; }
 
 /* Responsive */

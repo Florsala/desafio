@@ -164,11 +164,11 @@ $blanco: rgb(232, 231, 240) ;
 
 /* contenedor de imagenes */
 
-.container{
+.grid-container{
 
     margin-top: 250px;
-    width: 100%;
-    max-width: 1000px;
+   /*  width: 100%; */
+    max-width: 100%;
     border: none;
     margin: 0 auto;
     display: grid;
@@ -182,26 +182,27 @@ $blanco: rgb(232, 231, 240) ;
         ;
 }
 
+.grid-container
 
-
-.container .faro{
+.grid-container .faro{
     grid-area: faro;
     height: 600px;
 
-}
-.container .lobos{
-    grid-area: lobos;
+    .img{
+        width: 100%;
+    }
+
 }
 
-.container .andes{
+.grid-container .andes{
     grid-area: andes;
 }
-.container .ush{
+.grid-container .ush{
     grid-area: ush;
 }
-.container .trekk{
+.grid-container .trekk{
     grid-area: trekk;
 }
-.container .pnt{
+.grid-container .pnt{
     grid-area: pnt;
 }
