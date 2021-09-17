@@ -104,7 +104,8 @@ a.nav-link.active {
 
 .headIndex__container {
   width: 60%;
-  margin: auto; }
+  margin: auto;
+  transform: translate(38px, 20px); }
 
 .headIndex__titulo {
   padding: 20px;
