@@ -312,10 +312,11 @@ a.nav-link.active {
   .central__text {
     font-size: 1.9rem;
     text-transform: none;
-    line-height: 2.8rem; }
+    line-height: 2.8rem;
+    text-align: justify; }
   /* Experiencias */
   h1.Titulo__1 {
-    font-size: 54px;
+    font-size: 2.1rem;
     text-transform: capitalize;
     letter-spacing: 2px; }
   p.Titulo__texto {
@@ -465,7 +466,7 @@ a.nav-link.active {
   color: #f0e5e5;
   border: solid 1.5px #fcf8f8;
   border-radius: 4px;
-  width: 350px;
+  width: 90%;
   height: 200px;
   text-align: center;
   padding: 30px; }
