@@ -87,7 +87,8 @@ a.nav-link.active {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
-  width: 100%; }
+  width: 100%;
+  background-position: 50% 50%; }
 
 .headIndex {
   background-color: rgba(0, 0, 0, 0.507);
@@ -167,6 +168,14 @@ a.nav-link.active {
 
 .btn:hover {
   background-color: #d88913; }
+
+.BotonIndex_a {
+  color: beige;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none; }
+
+.BotonIndex_a:hover {
+  color: #e9e4c2; }
 
 /* Tarjetas */
 .cardsContainer {
@@ -263,6 +272,8 @@ a.nav-link.active {
 
 /* Responsive */
 @media only screen and (max-width: 500px) {
+  .bg-image {
+    background-position: 20%; }
   .cardsContainer {
     display: flex;
     flex-wrap: wrap; }
@@ -353,10 +364,6 @@ a.nav-link.active {
     border-radius: 6px; }
   .navbar {
     transform: translateY(-1%); } }
-
-@media only screen and (min-width: 1024px) {
-  .headIndex__container {
-    transform: translate(38px, 20px); } }
 
 @media only screen and (max-width: 1024px) {
   /* iconos  */

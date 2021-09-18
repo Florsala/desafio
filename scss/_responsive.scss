@@ -7,7 +7,9 @@
 
 
 @media only screen and (max-width:500px){
-
+.bg-image{
+    background-position: 20%;
+}
 
     .cardsContainer{
         display: flex;
@@ -185,14 +187,6 @@ form.Formulario{
 
 
      
-
-     @media only screen and (min-width: 1024px){
-     .headIndex__container{
-       
-        transform: translate(38px, 20px);
-}
-
-     }
 
 @media only screen and (max-width: 1024px)
 {

@@ -12,6 +12,7 @@ $blanco: rgb(232, 231, 240) ;
     background-size: cover; 
     margin-top: 100px;
     width: 100%;
+    background-position: 50% 50%;
   
 }
 
@@ -52,14 +53,14 @@ $blanco: rgb(232, 231, 240) ;
     }
     
     .headIndex__subtitulo{
-        color:$blanco;
-         text-align: center;
-         font-weight: bold;
-         font-family: 'Raleway', sans-serif;
-        letter-spacing: 6px;
-        font-size: 4rem;
-        font-family: 'Open Sans Condensed', sans-serif;
-        text-transform: uppercase;
+    color:$blanco;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 6px;
+    font-size: 4rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
             
     }
 
@@ -116,7 +117,15 @@ $blanco: rgb(232, 231, 240) ;
     background-color: rgb(216, 137, 19);
 }
 
+.BotonIndex_a{
+    color: beige;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+}
 
+.BotonIndex_a:hover {
+    color: rgb(233, 228, 194);
+  }
 /* Tarjetas */
 
 .cardsContainer {
