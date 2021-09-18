@@ -7,6 +7,8 @@
 
 
 @media only screen and (max-width:500px){
+
+
     .cardsContainer{
         display: flex;
         flex-wrap: wrap;
@@ -43,11 +45,19 @@ p.Head__text{
 .grid-container{
     grid-template-columns: 230px 120px;
 }
+  .central__text{
+        text-align: center;
+        margin: auto;
+        font-size: 1.5rem;
+    }
 
+    
 /* experiencias */
 h1.Titulo__1 {
     font-size: 2.8rem;}
 
+
+  
 }
 
 
@@ -81,16 +91,7 @@ h1.Titulo__1 {
     /* INDEX */
    
     
-    .cardsContainer{
-    display:flex;
-    flex-wrap: wrap;
-    }
-
-
-    .cardsContainer__tarjetas{
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
+   
 
     .headIndex__titulo
     {
@@ -191,7 +192,17 @@ form.Formulario{
       transform: translateY(-1%); }
      }
 
+
      
+
+     @media only screen and (min-width: 1024px){
+     .headIndex__container{
+       
+        transform: translate(38px, 20px);
+}
+
+     }
+
 @media only screen and (max-width: 1024px)
 {
 
@@ -200,4 +211,17 @@ form.Formulario{
   .iconosHead__lista{
     display: none;
 }
+
+.cardsContainer{
+    display:flex;
+    flex-wrap: wrap;
+    }
+
+
+.cardsContainer__tarjetas{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+
 }

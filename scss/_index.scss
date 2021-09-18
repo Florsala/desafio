@@ -36,8 +36,7 @@ $blanco: rgb(232, 231, 240) ;
     .headIndex__container{
         width: 60%;
         margin: auto;
-        transform: translate(38px, 20px);
-}
+       }
 
     
     
@@ -177,19 +176,21 @@ $blanco: rgb(232, 231, 240) ;
 
 /* texto central */
 .central{
-   height: 300px;
-   width: 100%;   
+  /*  height: 200px; */
+   width: 60%;   
    text-align: center;
-
+    margin: auto;
 }
 
 
 .central__text{
     text-align: center;
-    margin: 100px;
+    margin: 50px;
     font-size: 2rem;
-    letter-spacing: 8px;
+    letter-spacing: 10px;
+    line-height: 60px;
     text-transform: uppercase;
+    padding: 20px;
     
 }
 
@@ -198,7 +199,7 @@ $blanco: rgb(232, 231, 240) ;
 
 .grid-container{
 
-    margin-top: 250px;
+    margin-top: 150px;
     width: 100%;
     border: none;
     margin: auto;

@@ -104,8 +104,7 @@ a.nav-link.active {
 
 .headIndex__container {
   width: 60%;
-  margin: auto;
-  transform: translate(38px, 20px); }
+  margin: auto; }
 
 .headIndex__titulo {
   padding: 20px;
@@ -215,20 +214,23 @@ a.nav-link.active {
 
 /* texto central */
 .central {
-  height: 300px;
-  width: 100%;
-  text-align: center; }
+  /*  height: 200px; */
+  width: 60%;
+  text-align: center;
+  margin: auto; }
 
 .central__text {
   text-align: center;
-  margin: 100px;
+  margin: 50px;
   font-size: 2rem;
-  letter-spacing: 8px;
-  text-transform: uppercase; }
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 20px; }
 
 /* contenedor de imagenes */
 .grid-container {
-  margin-top: 250px;
+  margin-top: 150px;
   width: 100%;
   border: none;
   margin: auto;
@@ -280,6 +282,10 @@ a.nav-link.active {
     font-size: 1.4rem; }
   .grid-container {
     grid-template-columns: 230px 120px; }
+  .central__text {
+    text-align: center;
+    margin: auto;
+    font-size: 1.5rem; }
   /* experiencias */
   h1.Titulo__1 {
     font-size: 2.8rem; } }
@@ -296,12 +302,6 @@ a.nav-link.active {
 
 @media only screen and (max-width: 768px) {
   /* INDEX */
-  .cardsContainer {
-    display: flex;
-    flex-wrap: wrap; }
-  .cardsContainer__tarjetas {
-    margin-top: 50px;
-    margin-bottom: 50px; }
   .headIndex__titulo {
     font-size: 3rem; }
   .headIndex__subtitulo {
@@ -359,10 +359,20 @@ a.nav-link.active {
   .navbar {
     transform: translateY(-1%); } }
 
+@media only screen and (min-width: 1024px) {
+  .headIndex__container {
+    transform: translate(38px, 20px); } }
+
 @media only screen and (max-width: 1024px) {
   /* iconos  */
   .iconosHead__lista {
-    display: none; } }
+    display: none; }
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap; }
+  .cardsContainer__tarjetas {
+    margin-top: 50px;
+    margin-bottom: 50px; } }
 
 /*Pie de pagina*/
 .footer {
@@ -460,14 +470,14 @@ a.nav-link.active {
   border-radius: 4px; }
 
 .Visitas__img {
-  width: 150px;
-  height: 200px; }
+  width: 100%;
+  height: auto; }
 
 .Visitas__cards {
   color: #f0e5e5;
   border: solid 1.5px #fcf8f8;
   border-radius: 4px;
-  width: 90%;
+  width: 30%;
   height: 200px;
   text-align: center;
   padding: 30px; }
