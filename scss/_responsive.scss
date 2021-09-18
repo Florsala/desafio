@@ -51,7 +51,7 @@ p.Head__text{
         font-size: 1.5rem;
     }
 
-    
+
 /* experiencias */
 h1.Titulo__1 {
     font-size: 2.8rem;}
@@ -121,7 +121,7 @@ h1.Titulo__1 {
     /* Experiencias */
 
    h1.Titulo__1 {
-        font-size: 2.1rem;
+        font-size: 3.1rem;
         text-transform: capitalize;
         letter-spacing: 2px;
     }
@@ -130,18 +130,7 @@ h1.Titulo__1 {
         font-size: 24px;
     }
 
-    .Visitas{
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        
-        
-    }
-    .Visitas__cards{
-        margin-bottom: 20px;
-    }
+   
 
 .articulos{
     display: flex;
@@ -223,5 +212,14 @@ form.Formulario{
     margin-bottom: 50px;
     }
 
+    .Visitas{
+       
+    display:flex;
+    flex-wrap: wrap;
+    
+     }
 
+     .visitas-cards{
+         margin-bottom: 30px;
+     }
 }
