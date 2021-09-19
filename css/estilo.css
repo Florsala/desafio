@@ -309,7 +309,7 @@ a.nav-link.active {
     font-size: 1.4rem; }
   /* experiencias */
   h1.Titulo__1 {
-    font-size: 2.8rem; }
+    font-size: 2em; }
   .headIndex__titulo {
     text-align: center; } }
 
@@ -337,11 +337,14 @@ a.nav-link.active {
   .central__text {
     font-size: 16px; }
   /* Experiencias */
+  .bg-image1 {
+    background-position: 70% 50%; }
   .Titulo {
-    font-size: 16px; }
+    font-size: 12px; }
   h1.Titulo__1 {
     text-transform: capitalize;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    font-size: 2.8em; }
   .articulos {
     display: flex;
     flex-direction: column;
@@ -456,7 +459,7 @@ a.nav-link.active {
 .Titulo__1 {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
-  font-size: 3.8em;
+  font-size: 3.6em;
   justify-content: center;
   letter-spacing: 0.07em;
   line-height: 1.5em;
@@ -465,7 +468,7 @@ a.nav-link.active {
 
 .Titulo__texto {
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.6em;
   letter-spacing: 2px;
   color: #f5eded;
   padding: 1.94em;
