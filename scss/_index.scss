@@ -24,7 +24,7 @@ $blanco: rgb(232, 231, 240) ;
     color:$blanco ;
     width: 80%;  
     
-    margin-top: 1.87em;
+    margin-top: 4.87em;
     margin-bottom: 6.25em;
 
     position: absolute;
@@ -66,29 +66,29 @@ $blanco: rgb(232, 231, 240) ;
             
     }
 
-/* titulos de cajas */
 
-    .textosIndex{
-        color: #030325;
-       text-transform: uppercase;
-       text-align: center;
-       padding-top: 20px;
-       }
 
     .cajaSubtitulo{
         
         background-color: rgba(0, 0, 0, 0.726); 
         color: $blanco;
-        font-weight: bold;
+        
         border: 2px solid #f1f1f1;
         width: 80%;
         padding: 20px;
         text-align: center;
         margin: 0 auto;
         margin-top: 5rem;
+        font-size: 18px;
+
+        h2{
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 0.8em;
+        }
     p {
-        font-size: 1.5rem;
-        letter-spacing: 0.125rem;
+        font-size: 1.2em;
+        letter-spacing: 0.2em;
     }    
         
     }
@@ -159,6 +159,16 @@ $blanco: rgb(232, 231, 240) ;
     height: 17.75em;
    }
 }
+
+/* titulos de cajas */
+
+.textosIndex{
+    color: #030325;
+   text-transform: uppercase;
+   text-align: center;
+   padding-top: 20px;
+   font-size: 1.5em;
+   }
 .cardsContainer__tarjetas:nth-child(1){
     background-color: #e0a064 ;
     
@@ -200,12 +210,12 @@ $blanco: rgb(232, 231, 240) ;
 
 .central__text{
     text-align: center;
-    margin: 50px;
+    margin: 2em;
     font-size: 1.8em;
-    letter-spacing: 10px;
-    line-height: 60px;
+    letter-spacing: 0.4em;
+    line-height: 2.2em;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 1.2em;
     
 }
 
@@ -213,17 +223,16 @@ $blanco: rgb(232, 231, 240) ;
 /* contenedor de imagenes */
 
 .grid-container{
-
-    margin-top: 150px;
+    margin-top: 9.3em;
     width: 100%;
     border: none;
     margin: auto;
     display: grid;
     justify-content: center;
-    grid-gap: 10px;
+    grid-gap: 0.625em;
    /*  grid-auto-rows: 300px; */
-    grid-template-columns: 400px 250px ;
-    grid-template-areas: /* "faro  faro    lobos" */
+    grid-template-columns: 400px 250px;
+    grid-template-areas: 
                           "faro   pnt"
                           "faro   trekk"
                           "andes   ush    "               
@@ -239,9 +248,7 @@ $blanco: rgb(232, 231, 240) ;
 
 .grid-container .faro{
     grid-area: faro;
-    
-
-}
+    }
 
 .grid-container .andes{
     grid-area: andes;

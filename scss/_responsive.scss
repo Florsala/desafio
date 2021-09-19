@@ -7,10 +7,12 @@
 
 
 @media only screen and (max-width:500px){
+    /* imagen fondo index */
 .bg-image{
     background-position: 20%;
 }
 
+/* contenedor img index */
     .cardsContainer{
         display: flex;
         flex-wrap: wrap;
@@ -19,17 +21,13 @@
 
      
 .grid-container{
-    grid-template-columns: 230px 120px;
+    grid-template-columns: 200px 100px;
 }
   .central__text{
         text-align: center;
         margin: auto;
-        font-size: 1.5rem;
+        font-size: 1.5em;
     }
-
- /* .tarjetasIndex{
-     margin-top: 10px;
- } */
 
 
  /* Galeria */
@@ -83,13 +81,13 @@ h1.Titulo__1 {
 
     .headIndex__titulo
     {
-        font-size: 4.5rem;
+        font-size: 4.5em;
        
          }
 
     .headIndex__subtitulo
     {
-        font-size: 3.5rem;
+        font-size: 3.5em;
     }
 }
 
@@ -110,32 +108,33 @@ h1.Titulo__1 {
     {
         font-size: 2em;
     }
-  
-    .caja{
-        display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    
+.cajaSubtitulo{
+    font-size: 14px;
+    line-height: 1.8em;
+}
+
+    .cardsContainer{
+        font-size: 14px;
     }
 
+    
     .central__text{
-    font-size: 1.9rem;
-    text-transform: none;
-    line-height: 2.8rem;
-    text-align: justify;
+        font-size: 16px;
     }
+    
 
     /* Experiencias */
 
+    .Titulo{
+        font-size: 16px;
+    }
+
    h1.Titulo__1 {
-        font-size: 3.1rem;
-        text-transform: capitalize;
-        letter-spacing: 2px;
-    }
 
-    p.Titulo__texto {
-        font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
     }
-
    
 
 .articulos{
