@@ -249,6 +249,7 @@ a.nav-link.active {
 .grid-container {
   margin-top: 9.3em;
   width: 100%;
+  max-width: 75rem;
   border: none;
   margin: auto;
   display: grid;
@@ -279,39 +280,29 @@ a.nav-link.active {
   grid-area: pnt; }
 
 /* Responsive */
-@media only screen and (max-width: 500px) {
-  /* imagen fondo index */
-  .bg-image {
-    background-position: 20%; }
-  /* contenedor img index */
+@media only screen and (max-width: 1200px) {
+  /* iconos  */
+  .iconosHead__lista {
+    display: none; }
   .cardsContainer {
     display: flex;
-    flex-wrap: wrap;
-    font-size: 14px; }
-  .grid-container {
-    grid-template-columns: 200px 100px; }
-  .central__text {
-    text-align: center;
-    margin: auto;
-    font-size: 1.5em; }
-  /* Galeria */
-  h1.TituloGaleria {
-    font-size: 3rem; }
-  p.galeria {
-    font-size: 24px; }
-  .carousel {
-    margin-bottom: 20px; }
-  h1.Head__title {
-    font-size: 3em; }
-  p.Head__text {
-    font-size: 20px; }
-  .Formulario {
-    font-size: 1.4rem; }
-  /* experiencias */
-  h1.Titulo__1 {
-    font-size: 2em; }
-  .headIndex__titulo {
-    text-align: center; } }
+    flex-wrap: wrap; }
+  .cardsContainer__tarjetas {
+    margin-top: 3.125em;
+    margin-bottom: 3.125em; }
+  .Visitas {
+    display: flex;
+    flex-wrap: wrap; }
+  .visitas-cards {
+    margin-bottom: 30px; } }
+
+@media only screen and (max-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.507);
+    margin-top: 30px;
+    border-radius: 6px; }
+  .navbar {
+    transform: translateY(-1%); } }
 
 @media only screen and (min-width: 769px) {
   .nav-item {
@@ -367,29 +358,39 @@ a.nav-link.active {
   .iconosHead__lista {
     display: none; } }
 
-@media only screen and (max-width: 991px) {
-  .navbar-expand-lg .navbar-collapse {
-    background-color: rgba(255, 255, 255, 0.507);
-    margin-top: 30px;
-    border-radius: 6px; }
-  .navbar {
-    transform: translateY(-1%); } }
-
-@media only screen and (max-width: 1024px) {
-  /* iconos  */
-  .iconosHead__lista {
-    display: none; }
+@media only screen and (max-width: 576px) {
+  /* imagen fondo index */
+  .bg-image {
+    background-position: 20%; }
+  /* contenedor img index */
   .cardsContainer {
     display: flex;
-    flex-wrap: wrap; }
-  .cardsContainer__tarjetas {
-    margin-top: 3.125em;
-    margin-bottom: 3.125em; }
-  .Visitas {
-    display: flex;
-    flex-wrap: wrap; }
-  .visitas-cards {
-    margin-bottom: 30px; } }
+    flex-wrap: wrap;
+    font-size: 14px; }
+  .grid-container {
+    grid-template-columns: 200px 100px; }
+  .central__text {
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em; }
+  /* Galeria */
+  h1.TituloGaleria {
+    font-size: 3rem; }
+  p.galeria {
+    font-size: 24px; }
+  .carousel {
+    margin-bottom: 20px; }
+  h1.Head__title {
+    font-size: 3em; }
+  p.Head__text {
+    font-size: 20px; }
+  .Formulario {
+    font-size: 1.4rem; }
+  /* experiencias */
+  h1.Titulo__1 {
+    font-size: 2em; }
+  .headIndex__titulo {
+    text-align: center; } }
 
 /*Pie de pagina*/
 .footer {
@@ -463,7 +464,7 @@ a.nav-link.active {
   justify-content: center;
   letter-spacing: 0.07em;
   line-height: 1.5em;
-  margin: 50px auto;
+  margin: 70px auto;
   text-align: center; }
 
 .Titulo__texto {
