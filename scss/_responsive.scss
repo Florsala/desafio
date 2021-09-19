@@ -44,6 +44,19 @@
       border-radius: 6px; }
     .navbar {
       transform: translateY(-1%); }
+
+      h1.Titulo__1 {
+          font-size: 3.2em;
+      }
+
+      p.Titulo__texto{
+        font-size: 1.6rem;
+       
+    }
+
+    h3.central2__text{
+        font-size: 1.6em;
+    }
      }
 
 
@@ -111,18 +124,25 @@
         background-position: 70% 50%;
     }
 
-    .Titulo{
-        font-size: 12px;
-    }
 
    h1.Titulo__1 {
 
     text-transform: capitalize;
     letter-spacing: 3px;
-    font-size: 2.8em;
+     font-size: 2.8em; 
     }
-   
-   
+    p.Titulo__texto{
+        font-size: 1.4rem;
+    }
+
+    h3.Caja-fechas__titulo{
+        font-size: 1.3em;
+    }
+
+    h3.central2__text{
+        font-size: 1.4em;
+    }
+  
 
 .articulos{
     display: flex;
@@ -219,11 +239,28 @@ form.Formulario{
     
     /* experiencias */
     
+
+    
     h1.Titulo__1 {
         font-size: 2em;}
     
+    .Titulo__texto{
+        font-size: 1.2em;
+    }
+
+
     .headIndex__titulo{
         text-align: center;
     }
-      
+    
+    h3.Caja-fechas__titulo{
+        font-size: 1.1em;
+    }
+
+    h3.central2__text{
+        font-size: 1.1em;
+        text-align: center;
+        margin: auto;
+    }
+  
     }
