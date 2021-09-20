@@ -17,6 +17,7 @@
     border: 1px solid #0c0c0c;
     color:$blanco ;
     width: 80%;  
+    font-size: 18px;
     
     margin-top: 30px;
     margin-bottom: 100px;
@@ -29,7 +30,7 @@
 }
 .Head__title {
     font-family: 'Playfair Display', serif;
-    font-size: 90px;
+    font-size: 3.6em;
     color:rgb(232, 231, 240);
     margin-top: 80px;
     display: flex;
@@ -53,11 +54,6 @@
 }
 
 
-.card{
-    width: 400px;
-    box-shadow: 1.8px 2px 2px rgb(248, 245, 245);
-    margin-bottom: 20px;
-}
 
 .articulos{
     display: flex;
@@ -66,15 +62,25 @@
     color: black;
 }
 
-.card-title{
+.card{
+    width: 25rem;
+    box-shadow: 1.8px 2px 2px rgb(248, 245, 245);
+    margin-bottom: 20px;
+}
+
+.card__body{
+    padding: 20px;
+}
+.card__title{
     font-size: 1.5rem;
     font-weight: bold;
 }
-.card-text{
-    font-size:18px;
+.card__text{
+    font-size:1.1rem;
    
 }
 .card-img-top{
-    height: 50%;
+    height: 16.5rem;
     object-fit: cover;
 }
+

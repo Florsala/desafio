@@ -22,7 +22,7 @@
     margin-top: 3.125em;
     margin-bottom: 3.125em;
     }
-
+/* experiencias */
     .Visitas{
        
     display:flex;
@@ -33,6 +33,15 @@
      .visitas-cards{
          margin-bottom: 30px;
      }
+
+     /* GAleria */
+
+     
+.articulos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 }
 
 
@@ -56,6 +65,11 @@
 
     h3.central2__text{
         font-size: 1.6em;
+    }
+
+    p.Galeria_texto{
+        font-size: 1.4rem;
+        text-align: center;
     }
      }
 
@@ -149,10 +163,32 @@
     flex-direction: column;
     align-items: center;
 }
-
+/* seccion galeria */
 p.Galeria_texto{
-    font-size: 20px;
+    font-size: 1.2rem;
+    line-height: 50px;
+    
 }
+
+.card{
+    width: 20rem;
+    height: 25.4rem;
+}
+
+.card-img-top{
+    height: 14rem;
+}
+
+h5.card__title{
+    font-size: 1.3rem;
+    
+}
+p.card__text{
+    font-size:1rem;
+   
+}
+
+
    
 h1.TituloContacto{
     font-size: 45px;
@@ -211,14 +247,13 @@ form.Formulario{
     
     
      /* Galeria */
-     h1.TituloGaleria{
-        font-size: 3rem;
-     
-    }  
-    p.galeria{
-        font-size: 24px;
+      
+    /* seccion galeria */
+    p.Galeria_texto{
+        font-size: 1rem;
+        line-height: 40px;
         
-    }   
+    }
     .carousel{
         margin-bottom: 20px;
     }

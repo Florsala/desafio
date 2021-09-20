@@ -290,11 +290,17 @@ a.nav-link.active {
   .cardsContainer__tarjetas {
     margin-top: 3.125em;
     margin-bottom: 3.125em; }
+  /* experiencias */
   .Visitas {
     display: flex;
     flex-wrap: wrap; }
   .visitas-cards {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  /* GAleria */
+  .articulos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; } }
 
 @media only screen and (max-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
@@ -308,7 +314,10 @@ a.nav-link.active {
   p.Titulo__texto {
     font-size: 1.6rem; }
   h3.central2__text {
-    font-size: 1.6em; } }
+    font-size: 1.6em; }
+  p.Galeria_texto {
+    font-size: 1.4rem;
+    text-align: center; } }
 
 @media only screen and (min-width: 769px) {
   .nav-item {
@@ -350,8 +359,19 @@ a.nav-link.active {
     display: flex;
     flex-direction: column;
     align-items: center; }
+  /* seccion galeria */
   p.Galeria_texto {
-    font-size: 20px; }
+    font-size: 1.2rem;
+    line-height: 50px; }
+  .card {
+    width: 20rem;
+    height: 25.4rem; }
+  .card-img-top {
+    height: 14rem; }
+  h5.card__title {
+    font-size: 1.3rem; }
+  p.card__text {
+    font-size: 1rem; }
   h1.TituloContacto {
     font-size: 45px; }
   p.SubtituloContacto {
@@ -384,10 +404,10 @@ a.nav-link.active {
     margin: auto;
     font-size: 1.5em; }
   /* Galeria */
-  h1.TituloGaleria {
-    font-size: 3rem; }
-  p.galeria {
-    font-size: 24px; }
+  /* seccion galeria */
+  p.Galeria_texto {
+    font-size: 1rem;
+    line-height: 40px; }
   .carousel {
     margin-bottom: 20px; }
   h1.Head__title {
@@ -608,7 +628,7 @@ a.nav-link.active {
   border: 1px solid #e8e7f0;
   width: 80%;
   margin-top: 30px;
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
 
 .Galeria_texto {
   padding: 40px;
@@ -696,6 +716,7 @@ a.nav-link.active {
   border: 1px solid #0c0c0c;
   color: #e8e7f0;
   width: 80%;
+  font-size: 18px;
   margin-top: 30px;
   margin-bottom: 100px;
   position: absolute;
@@ -706,7 +727,7 @@ a.nav-link.active {
 
 .Head__title {
   font-family: 'Playfair Display', serif;
-  font-size: 90px;
+  font-size: 3.6em;
   color: #e8e7f0;
   margin-top: 80px;
   display: flex;
@@ -724,26 +745,29 @@ a.nav-link.active {
   line-height: 2.5em;
   margin-bottom: 50px; }
 
-.card {
-  width: 400px;
-  box-shadow: 1.8px 2px 2px #f8f5f5;
-  margin-bottom: 20px; }
-
 .articulos {
   display: flex;
   justify-content: space-evenly;
   margin-top: 150px;
   color: black; }
 
-.card-title {
+.card {
+  width: 25rem;
+  box-shadow: 1.8px 2px 2px #f8f5f5;
+  margin-bottom: 20px; }
+
+.card__body {
+  padding: 20px; }
+
+.card__title {
   font-size: 1.5rem;
   font-weight: bold; }
 
-.card-text {
-  font-size: 18px; }
+.card__text {
+  font-size: 1.1rem; }
 
 .card-img-top {
-  height: 50%;
+  height: 16.5rem;
   object-fit: cover; }
 
 /*Seccion Contacto*/
