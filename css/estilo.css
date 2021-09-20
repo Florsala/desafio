@@ -778,6 +778,7 @@ a.nav-link.active {
   height: 850px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
   margin-top: 100px; }
 
 .ReservaAhora {
