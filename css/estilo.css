@@ -297,10 +297,13 @@ a.nav-link.active {
   .visitas-cards {
     margin-bottom: 30px; }
   /* GAleria */
+  .bg-image3 {
+    height: 500px; }
   .articulos {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    margin-top: 30px; } }
 
 @media only screen and (max-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
@@ -315,9 +318,24 @@ a.nav-link.active {
     font-size: 1.6rem; }
   h3.central2__text {
     font-size: 1.6em; }
+  /* galeria */
   p.Galeria_texto {
     font-size: 1.4rem;
-    text-align: center; } }
+    text-align: center; }
+  /* mi seleccion */
+  .bg-image3 {
+    height: 300px; }
+  h1.Head__title {
+    font-size: 3.4em; }
+  p.Head__text {
+    font-size: 1.3em; }
+  .card {
+    font-size: 14px; }
+  /* contacto */
+  div.contacto__contenedor {
+    font-size: 12px; }
+  .Formulario {
+    font-size: 12px; } }
 
 @media only screen and (min-width: 769px) {
   .nav-item {
@@ -355,23 +373,26 @@ a.nav-link.active {
     font-size: 1.3em; }
   h3.central2__text {
     font-size: 1.4em; }
+  /* seccion galeria */
   .articulos {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  /* seccion galeria */
   p.Galeria_texto {
-    font-size: 1.2rem;
+    font-size: 1.2em;
     line-height: 50px; }
   .card {
-    width: 20rem;
-    height: 25.4rem; }
+    width: 20em;
+    height: 25.4em; }
   .card-img-top {
-    height: 14rem; }
+    height: 14em; }
   h5.card__title {
-    font-size: 1.3rem; }
+    font-size: 1.3em; }
   p.card__text {
-    font-size: 1rem; }
+    font-size: 1em; }
+  div.bg-image4 {
+    font-size: 12px;
+    /* height: 40em; */ }
   h1.TituloContacto {
     font-size: 45px; }
   p.SubtituloContacto {
@@ -403,7 +424,6 @@ a.nav-link.active {
     text-align: center;
     margin: auto;
     font-size: 1.5em; }
-  /* Galeria */
   /* seccion galeria */
   p.Galeria_texto {
     font-size: 1rem;
@@ -411,7 +431,7 @@ a.nav-link.active {
   .carousel {
     margin-bottom: 20px; }
   h1.Head__title {
-    font-size: 3em; }
+    font-size: 2.5em; }
   p.Head__text {
     font-size: 20px; }
   .Formulario {
@@ -428,7 +448,11 @@ a.nav-link.active {
   h3.central2__text {
     font-size: 1.1em;
     text-align: justify;
-    margin: auto; } }
+    margin: auto; }
+  /* mi seleccion */
+  .card {
+    font-size: 13px; }
+  /* contacto */ }
 
 /*Pie de pagina*/
 .footer {
@@ -706,7 +730,8 @@ a.nav-link.active {
   background-image: url("../imagenes/andes.jpg");
   filter: grayscale 80%;
   -webkit-filter: grayscale(40%);
-  height: 800px;
+  height: 720px;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px; }
@@ -737,7 +762,7 @@ a.nav-link.active {
   color: white;
   width: 80%;
   padding: 20px;
-  font-size: 28px;
+  font-size: 1.75rem;
   text-align: center;
   margin: 0 auto;
   letter-spacing: 1px;
@@ -749,10 +774,11 @@ a.nav-link.active {
   display: flex;
   justify-content: space-evenly;
   margin-top: 150px;
-  color: black; }
+  color: black;
+  font-size: 16px; }
 
 .card {
-  width: 25rem;
+  width: 24em;
   box-shadow: 1.8px 2px 2px #f8f5f5;
   margin-bottom: 20px; }
 
@@ -760,28 +786,30 @@ a.nav-link.active {
   padding: 20px; }
 
 .card__title {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: bold; }
 
 .card__text {
-  font-size: 1.1rem; }
+  font-size: 1.1em; }
 
 .card-img-top {
-  height: 16.5rem;
+  height: 60%;
   object-fit: cover; }
 
 /*Seccion Contacto*/
 .bg-image4 {
   background-image: url("../imagenes/sign.jpg");
   filter: grayscale 80%;
-  -webkit-filter: grayscale(60%);
-  height: 850px;
+  -webkit-filter: grayscale(40%);
+  height: 53.1em;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  margin-top: 100px; }
+  margin-top: 6.25em;
+  font-size: 16px; }
 
-.ReservaAhora {
+.contacto__contenedor {
   margin-top: 35px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.507);
@@ -792,26 +820,27 @@ a.nav-link.active {
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -20%);
-  z-index: 2; }
+  transform: translate(-50%, -30%);
+  z-index: 2;
+  font-size: 16px; }
 
-.TituloContacto {
+.contacto__titulo {
   margin-top: 70px;
-  font-size: 60px;
+  font-size: 3.75em;
   margin-bottom: 5px; }
 
-.TextoContacto {
+.contacto__subtitulo {
+  font-size: 2.5em;
+  color: #f8f2f2;
+  margin-top: 15px; }
+
+.contacto__texto {
   margin-top: 40px;
   margin-bottom: 30px;
   letter-spacing: 2px;
   color: #f1f1e0;
-  font-size: 28px;
+  font-size: 1.75em;
   text-align: center; }
-
-.SubtituloContacto {
-  font-size: 2.5rem;
-  color: #f8f2f2;
-  margin-top: 15px; }
 
 input, #Experiencia {
   background-color: #f3e9e9;
@@ -835,12 +864,12 @@ input {
 .Formulario {
   margin: 70px auto;
   color: #f8f8f4;
-  font-size: 1.6rem;
+  font-size: 1.6em;
   font-weight: bolder;
   text-align: center;
   letter-spacing: 2px;
-  width: 500px;
-  height: 600px;
+  width: 31.25em;
+  height: 37.5em;
   justify-content: center;
   display: grid;
   grid-template-columns: 300px 300px;

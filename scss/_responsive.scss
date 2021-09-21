@@ -30,17 +30,22 @@
     
      }
 
-     .visitas-cards{
-         margin-bottom: 30px;
+    .visitas-cards{
+    margin-bottom: 30px;
      }
 
      /* GAleria */
 
+.bg-image3{
+
+    height: 500px;
+}
      
 .articulos{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 }
 
@@ -66,11 +71,46 @@
     h3.central2__text{
         font-size: 1.6em;
     }
+/* galeria */
+    
+   
+
 
     p.Galeria_texto{
         font-size: 1.4rem;
         text-align: center;
     }
+
+    /* mi seleccion */
+
+    .bg-image3{
+        height: 300px;
+    }
+
+    h1.Head__title{
+        font-size: 3.4em;
+    }
+
+    p.Head__text{
+        font-size: 1.3em;
+    }
+
+   .card{
+        font-size: 14px;
+    }
+
+
+    /* contacto */
+   div.contacto__contenedor{
+        font-size: 12px;
+    }
+    
+   
+
+    .Formulario{
+        font-size: 12px;
+    }
+
      }
 
 
@@ -157,38 +197,42 @@
         font-size: 1.4em;
     }
   
+/* seccion galeria */
 
 .articulos{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/* seccion galeria */
+
 p.Galeria_texto{
-    font-size: 1.2rem;
+    font-size: 1.2em;
     line-height: 50px;
     
 }
 
 .card{
-    width: 20rem;
-    height: 25.4rem;
+    width: 20em;
+    height: 25.4em;
 }
 
 .card-img-top{
-    height: 14rem;
+    height: 14em;
 }
 
 h5.card__title{
-    font-size: 1.3rem;
+    font-size: 1.3em;
     
 }
 p.card__text{
-    font-size:1rem;
+    font-size:1em;
    
 }
 
-
+div.bg-image4{
+    font-size: 12px;
+    /* height: 40em; */
+}
    
 h1.TituloContacto{
     font-size: 45px;
@@ -229,10 +273,10 @@ form.Formulario{
     }
     
     /* contenedor img index */
-        .cardsContainer{
-            display: flex;
-            flex-wrap: wrap;
-            font-size: 14px;
+    .cardsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 14px;
          }
     
          
@@ -240,15 +284,16 @@ form.Formulario{
         grid-template-columns: 200px 100px;
     }
       .central__text{
-            text-align: center;
-            margin: auto;
-            font-size: 1.5em;
+        text-align: center;
+        margin: auto;
+        font-size: 1.5em;
         }
     
     
-     /* Galeria */
+    
       
     /* seccion galeria */
+
     p.Galeria_texto{
         font-size: 1rem;
         line-height: 40px;
@@ -260,7 +305,7 @@ form.Formulario{
     
     h1.Head__title {
         
-        font-size: 3em;
+        font-size: 2.5em;
     }
     
     p.Head__text{
@@ -298,4 +343,14 @@ form.Formulario{
         margin: auto;
     }
   
+    /* mi seleccion */
+
+    .card{
+        font-size: 13px;
+    }
+
+
+    /* contacto */
+
+
     }
