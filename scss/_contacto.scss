@@ -4,7 +4,7 @@
     background-image: url("../imagenes/sign.jpg");
     filter: grayscale 80%;
     -webkit-filter: grayscale(40%);
-    height: 53.1em; 
+    height: 38em; 
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -59,21 +59,21 @@
 
 input, #Experiencia {
     background-color: #f3e9e9;
-    width: 180px;
-    height: 45px;
+    width: 11.25em;
+    height: 2.8125em;
     border-radius: 4px;
     font-family: 'Open Sans Condensed';
-    font-size: 1.4rem;
+    font-size: 16px;
     font-weight: bold;
 }
 
 input{
     background-color: #f8f2f2;
-    width: 180px;
-    height: 38px;
+    width: 11.25em;
+    height: 2.375em;
     border-radius: 4px;
     font-family: 'Open Sans Condensed';
-    font-size: 21px;
+    font-size: 16px;
     font-weight: bold;
     padding: 8px;
 }
@@ -81,9 +81,9 @@ input{
 
 
 .Formulario{
-margin: 70px auto;
+margin: 4.375rem auto;
 color: rgb(248, 248, 244);
-font-size: 1.6em;
+font-size: 16px;
 font-weight: bolder;
 text-align: center;
 letter-spacing: 2px;
@@ -100,20 +100,24 @@ grid-gap:30px
 .Formulario #Nombre{
 grid-row: 1/2;
 grid-column: 2/3;
+
 }
 
 .Formulario .Nombre{
 grid-row: 1/2;
 grid-column: 1/2;
+font-size: 1.5em;
 }
 
 .Formulario #Apellido{
 grid-row: 2/3;
 grid-column: 2/3;
+
 }
 .Formulario .Apellido{
 grid-row: 2/3;
 grid-column: 1/2;
+font-size: 1.5em;
 }
 
 .Formulario #email{
@@ -124,33 +128,26 @@ grid-column: 2/3;
 .Formulario .email{
 grid-row: 3/4;
 grid-column: 1/2;
+font-size: 1.5em;
 }
 .Formulario .Experiencia{
 grid-row: 4/5;
 grid-column: 1/2;
+font-size: 1.5em;
 }
 .Formulario #Experiencia{
 grid-row: 4/5;
 grid-column: 2/3;
 }
 
-.Formulario .Novedades{
-grid-row: 5/6;
-grid-column: 1/2;
-}
 
-.Formulario #checkbox{
-grid-row: 5/6;
-grid-column: 2/3;
-justify-self: left;
-width: 40px;
-height: 25px;
-}
 .Formulario #Comentarios{
 grid-row: 6/8;
 grid-column: 1/3;
-width: 450px;
+width: 28.125em;
+height: 6em;
 justify-self: center;
+font-size: 1.3em;
 }
 
 
@@ -159,7 +156,7 @@ justify-self: center;
 grid-row: 8/9;
 grid-column: 2/3;
 background: rgba(255, 68, 0, 0.719);
-height: 40px;
-width: 120px;
+height: 2.5em;
+width: 7.5em;
 justify-self: self-start;
 }
