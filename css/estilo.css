@@ -333,7 +333,8 @@ a.nav-link.active {
     font-size: 14px; }
   /* contacto */
   div.contacto__contenedor {
-    font-size: 12px; }
+    font-size: 12px;
+    top: 30%; }
   form.Formulario {
     font-size: 14px; }
   div.bg-image4 {
@@ -403,7 +404,8 @@ a.nav-link.active {
   form.Formulario {
     font-size: 12px;
     align-items: stretch;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    margin-top: 20%; }
   /* iconos  */
   .iconosHead__lista {
     display: none; } }
@@ -454,7 +456,18 @@ a.nav-link.active {
   /* contacto */
   div.bg-image4 {
     font-size: 10px; }
+  .contacto__contenedor {
+    top: 30%; }
   form.Formulario {
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 100px 150px;
+    grid-template-rows: repeat(6, 1fr) 2fr;
+    align-content: center;
+    grid-gap: 19px; } }
+
+@media only screen and (max-width: 320px) {
+  .contacto__contenedor {
     font-size: 10px; } }
 
 /*Pie de pagina*/
@@ -815,7 +828,7 @@ a.nav-link.active {
 .contacto__contenedor {
   margin-top: 35px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.507);
+  background-color: rgba(0, 0, 0, 0.692);
   border: 1px solid #0c0c0c;
   color: #e8e7f0;
   width: 80%;
@@ -865,7 +878,7 @@ input {
   padding: 8px; }
 
 .Formulario {
-  margin: 4.375rem auto;
+  margin: 4.375em auto;
   color: #f8f8f4;
   font-size: 16px;
   font-weight: bolder;
@@ -919,8 +932,8 @@ input {
 .Formulario #Comentarios {
   grid-row: 6/8;
   grid-column: 1/3;
-  width: 28.125em;
-  height: 6em;
+  width: 28em;
+  height: 8em;
   justify-self: center;
   font-size: 1.3em; }
 

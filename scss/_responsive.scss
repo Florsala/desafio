@@ -103,6 +103,7 @@
     /* contacto */
    div.contacto__contenedor{
         font-size: 12px;
+        top: 30%;
     }
     
    
@@ -255,6 +256,7 @@ form.Formulario{
     font-size: 12px;
     align-items: stretch;
     justify-content: space-evenly;
+    margin-top: 20%;
  
 } 
 
@@ -359,8 +361,23 @@ form.Formulario{
       
     }
 
-    form.Formulario{
-        font-size: 10px;
+    .contacto__contenedor{
+        top: 30%;
     }
 
+    form.Formulario{
+        font-size: 10px;
+        display: grid;
+        grid-template-columns: 100px 150px;
+        grid-template-rows: repeat(6, 1fr) 2fr;    
+        align-content: center;   
+        grid-gap:19px;
+    }
+
+    }
+
+    @media only screen and (max-width:320px){
+        .contacto__contenedor{
+            font-size: 10px;
+        }
     }
