@@ -302,7 +302,22 @@ form.Formulario{
          
     .grid-container{
         grid-template-columns: 250px 150px;
+        grid-auto-rows: 200px;
+  
     }
+
+    .faro{
+        grid-column-start: span 2;
+    }
+
+    .andes{
+        grid-column-start: span 2 ;
+    }
+
+    .pnt{
+        display: none;
+    }
+
       .central__text{
         text-align: center;
         margin: auto;

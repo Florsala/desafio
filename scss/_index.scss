@@ -230,15 +230,16 @@ $blanco: rgb(232, 231, 240) ;
     margin: auto;
     display: grid;
     justify-content: center;
+    padding: 20px;
     grid-gap: 0.625em;
-   /*  grid-auto-rows: 150px; */
+    grid-auto-rows: 220px;
   
     grid-template-columns: 400px 250px;
-    grid-template-areas: 
+   /*  grid-template-areas: 
                           "faro   pnt"
                           "faro   trekk"
                           "andes   ush"               
-        ;
+        ; */
 }
 
 .grid-img{
@@ -248,7 +249,7 @@ $blanco: rgb(232, 231, 240) ;
 
 }
 
-.grid-container .faro{
+/* .grid-container .faro{
     grid-area: faro;
     }
 
@@ -263,4 +264,13 @@ $blanco: rgb(232, 231, 240) ;
 }
 .grid-container .pnt{
     grid-area: pnt;
+} */
+
+.faro{
+grid-row-start: span 2;
+
+}
+
+.trekk{
+    grid-row-end: span 2;
 }
