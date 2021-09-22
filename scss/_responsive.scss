@@ -68,6 +68,10 @@
        
     }
 
+    .central{
+        font-size: 16px;
+    }
+
     h3.central2__text{
         font-size: 1.6em;
     }
@@ -143,6 +147,8 @@
     {
         font-size: 3.5em;
     }
+
+    
 }
 
 
@@ -172,11 +178,20 @@
         font-size: 14px;
     }
 
-    
-    .central__text{
-        font-size: 16px;
+    .central{
+        font-size: 14px;
     }
     
+    .grid-container{
+        grid-template-columns: 350px 200px;
+        grid-template-areas: 
+                              "faro   pnt"
+                              "faro   trekk"
+                              "andes   ush    "               
+            ;
+    }
+    
+
 
     /* Experiencias */
 
@@ -286,7 +301,7 @@ form.Formulario{
     
          
     .grid-container{
-        grid-template-columns: 200px 100px;
+        grid-template-columns: 250px 150px;
     }
       .central__text{
         text-align: center;
@@ -376,8 +391,31 @@ form.Formulario{
 
     }
 
-    @media only screen and (max-width:320px){
-        .contacto__contenedor{
+    @media only screen and (max-width:420px){
+
+        .grid-container{
+            grid-template-columns: 300px ;
+            grid-template-areas: 
+
+                          "faro"   
+                          "trekk"
+                          "andes"
+                          " . ";               
+        
+        }
+
+        div.contacto__contenedor{
             font-size: 10px;
+        }
+
+        form.Formulario{
+            font-size: 8px;
+            display: grid;
+            grid-template-columns: 80px 100px;
+            grid-template-rows: repeat(6, 1fr) 2fr;    
+            align-content: center;   
+            grid-gap:15px;
+            justify-content: space-evenly;
+            justify-items: center;
         }
     }
