@@ -314,6 +314,8 @@ a.nav-link.active {
   h3.central2__text {
     font-size: 1.6em; }
   /* galeria */
+  div.carousel {
+    font-size: 14px; }
   p.Galeria_texto {
     font-size: 1.4em;
     text-align: center; }
@@ -386,7 +388,7 @@ a.nav-link.active {
   p.Galeria_texto {
     font-size: 1.2em;
     line-height: 50px; }
-  .carousel {
+  div.carousel {
     font-size: 12px; }
   .GaleriaContainer {
     font-size: 14px; }
@@ -448,6 +450,8 @@ a.nav-link.active {
   p.Galeria_texto {
     font-size: 1rem;
     line-height: 40px; }
+  div.carousel {
+    font-size: 10px; }
   .carousel {
     margin-bottom: 20px; }
   div.GaleriaContainer {
@@ -708,13 +712,13 @@ a.nav-link.active {
 .Galeria {
   margin: auto;
   border: 1px solid #e8e7f0;
-  width: 80%;
+  width: 70%;
   margin-top: 12.5em;
   margin-bottom: 8em;
   font-size: 16px; }
 
 .Galeria_texto {
-  padding: 40px;
+  padding: 1.5em;
   text-align: center;
   margin: 0 auto;
   margin-top: 30px;
@@ -723,7 +727,7 @@ a.nav-link.active {
   font-size: 1.6em;
   letter-spacing: 2px;
   color: #e8e7f0;
-  line-height: 60px; }
+  line-height: 3.75em; }
 
 /*------Tarjetas-------- */
 .carousel {
