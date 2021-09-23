@@ -481,8 +481,7 @@ a.nav-link.active {
   h3.Caja-fechas__titulo {
     font-size: 1.1em; }
   h3.central2__text {
-    font-size: 1.1em;
-    text-align: justify;
+    font-size: 0.7em;
     margin: auto; }
   /* mi seleccion */
   .card {
@@ -700,9 +699,8 @@ a.nav-link.active {
   font-size: 18px; }
 
 .central2__text {
-  text-align: center;
   margin: 2em;
-  font-size: 1.8em;
+  font-size: 1.5em;
   letter-spacing: 0.4em;
   line-height: 2.2em;
   text-transform: uppercase;
