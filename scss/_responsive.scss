@@ -34,12 +34,6 @@
     margin-bottom: 30px;
      }
 
-     /* GAleria */
-
-.bg-image3{
-
-    height: 500px;
-}
 
 /* mi seleccion */
      
@@ -62,11 +56,11 @@
       transform: translateY(-1%); }
 
       h1.Titulo__1 {
-          font-size: 3.2em;
+      font-size: 3.2em;
       }
 
       p.Titulo__texto{
-        font-size: 1.6rem;
+    font-size: 1.6rem;
        
     }
 
@@ -81,54 +75,51 @@
     
 
     p.Galeria_texto{
-        font-size: 1.4rem;
-        text-align: center;
+    font-size: 1.4em;
+    text-align: center;
     }
 
     div.cardsGaleria{
-        font-size: 14px;
+    font-size: 14px;
     }
 
     /* mi seleccion */
 
     .bg-image3{
-        height: 300px;
+    height: 300px;
     }
 
     h1.Head__title{
-        font-size: 3.4em;
+    font-size: 3.4em;
     }
 
     p.Head__text{
-        font-size: 1.3em;
+    font-size: 1.3em;
     }
 
    .card{
-        font-size: 14px;
+    font-size: 14px;
     }
 
 
     /* contacto */
    div.contacto__contenedor{
-        font-size: 12px;
-        top: 30%;
+    font-size: 12px;
+    top: 30%;
     }
     
    
 
     form.Formulario{
-        font-size: 14px;
+    font-size: 14px;
     }
 
     div.bg-image4{
-        font-size: 14px;
+    font-size: 14px;
       
     }
 
      }
-
-
-
 
 
 
@@ -156,39 +147,35 @@
 }
 
 
-
-     
 @media only screen and (max-width: 768px){
     /* INDEX */
    
 
-    .headIndex__titulo
-    {
-        font-size: 3em;
+    .headIndex__titulo{
+    font-size: 3em;
         
     }
 
-    .headIndex__subtitulo
-    {
-        font-size: 2em;
+    .headIndex__subtitulo{
+    font-size: 2em;
     }
     
-.cajaSubtitulo{
+    .cajaSubtitulo{
     font-size: 14px;
     line-height: 1.8em;
 }
 
     .cardsContainer{
-        font-size: 14px;
+    font-size: 14px;
     }
 
     .central{
-        font-size: 14px;
+    font-size: 14px;
     }
     
     .grid-container{
-        grid-template-columns: 350px 200px;
-        grid-template-areas: 
+    grid-template-columns: 350px 200px;
+    grid-template-areas: 
                               "faro   pnt"
                               "faro   trekk"
                               "andes   ush    "               
@@ -230,12 +217,26 @@
     align-items: center;
 }
 
+
+.Galeria{
+    font-size: 12px;
+}
+
 p.Galeria_texto{
     font-size: 1.2em;
     line-height: 50px;
     
 }
 
+.carousel{
+    font-size: 12px;
+}
+
+.GaleriaContainer{
+    font-size: 14px;
+}
+
+/* mi seleccion */
 .card{
     width: 20em;
     height: 25.4em;
@@ -259,6 +260,8 @@ div.bg-image4{
   
 }
    
+
+/* contacto */
 h1.TituloContacto{
     font-size: 45px;
 }
@@ -351,18 +354,12 @@ form.Formulario{
         margin-bottom: 20px;
     }
 
-    div.cardsGaleria{
-        font-size: 12px;
-    }
-
     div.GaleriaContainer{
        
         font-size: 12px;
+
     }
-    
-
-
-    
+        
     h1.Head__title {
         
         font-size: 2.5em;
