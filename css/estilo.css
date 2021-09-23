@@ -722,25 +722,29 @@ a.nav-link.active {
 
 } */
 .Galeria {
-  background-color: #e8e7f0;
-  margin: auto;
-  border: 1px solid #e8e7f0;
+  background-image: url(../imagenes/PNtdf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: hue-rotate(24deg);
   width: 100%;
   margin-top: 12.5em;
   margin-bottom: 8em;
-  font-size: 16px; }
+  font-size: 16px;
+  padding: 4px; }
 
 .Galeria_texto {
+  background-color: #0000008f;
   padding: 1.2em;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 30px;
+  margin: 30px;
   text-transform: uppercase;
   text-align: center;
   font-size: 1.5em;
   letter-spacing: 2px;
-  color: #1a1919;
-  line-height: 3.3em; }
+  color: #e8e7f0;
+  line-height: 3.3em;
+  border: solid 2px #e8e7f0; }
 
 /*------Tarjetas-------- */
 .carousel {
