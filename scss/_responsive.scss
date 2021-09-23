@@ -303,7 +303,12 @@ form.Formulario{
     .grid-container{
         grid-template-columns: 250px 150px;
         grid-auto-rows: 200px;
+       
   
+    }
+
+    .trekk{
+        grid-column-start: span 2;
     }
 
     .faro{
@@ -315,6 +320,10 @@ form.Formulario{
     }
 
     .pnt{
+        display: none;
+    }
+
+    .ush{
         display: none;
     }
 
@@ -384,6 +393,14 @@ form.Formulario{
         font-size: 13px;
     }
 
+    div.bg-image3{
+        height: 576px;
+    }
+
+    section.articulos{
+        margin-top: 50px;
+    }
+
 
     /* contacto */
     div.bg-image4{
@@ -410,8 +427,17 @@ form.Formulario{
 
         .grid-container{
         
-        grid-template-columns: 200px 100px;    
+        grid-template-columns: 200px 100px;   
+        grid-auto-rows: 150px; 
         
+        }
+
+        .faro{
+            background-position: top;
+        }
+
+        .trekk{
+            background-position: top;
         }
 
 

@@ -233,13 +233,9 @@ $blanco: rgb(232, 231, 240) ;
     padding: 20px;
     grid-gap: 0.625em;
     grid-auto-rows: 220px;
-  
+    grid-row-end: none;
     grid-template-columns: 400px 250px;
-   /*  grid-template-areas: 
-                          "faro   pnt"
-                          "faro   trekk"
-                          "andes   ush"               
-        ; */
+   
 }
 
 .grid-img{
@@ -249,23 +245,6 @@ $blanco: rgb(232, 231, 240) ;
 
 }
 
-/* .grid-container .faro{
-    grid-area: faro;
-    }
-
-.grid-container .andes{
-    grid-area: andes;
-}
-.grid-container .ush{
-    grid-area: ush;
-}
-.grid-container .trekk{
-    grid-area: trekk;
-}
-.grid-container .pnt{
-    grid-area: pnt;
-} */
-
 .faro{
 grid-row-start: span 2;
 
@@ -273,4 +252,8 @@ grid-row-start: span 2;
 
 .trekk{
     grid-row-end: span 2;
+}
+
+.pnt{
+    grid-row-start: span 2;
 }
