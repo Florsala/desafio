@@ -200,7 +200,8 @@
      font-size: 2.8em; 
     }
     p.Titulo__texto{
-        font-size: 1.4rem;
+        font-size: 1.2em;
+        padding: 0.9em;
     }
 
     h3.Caja-fechas__titulo{
@@ -336,19 +337,28 @@ form.Formulario{
         display: none;
     }
 
-      .central__text{
+    .central__text{
         text-align: center;
         margin: auto;
         font-size: 1.5em;
         }
-    
-    
-    
+
+    /* experiencias */
+    div.bg-image1{
+        background-position: 70% 50%;
+        height: 500px;
+        }
+    div.Titulo{
+        top: 34%;
+    }
+    h1.Titulo__1{
+        margin: 25px auto;
+    }
       
     /* seccion galeria */
 
     p.Galeria_texto{
-        font-size: 1rem;
+        font-size: 1em;
         line-height: 40px;
         
     }
@@ -457,6 +467,16 @@ form.Formulario{
 
         .trekk{
             background-position: top;
+        }
+
+        div.carousel{
+            font-size: 8px;
+        }
+
+        
+        section.Visitas{
+            font-size: 14px;
+                 
         }
 
 

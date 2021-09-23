@@ -20,11 +20,12 @@ $carousel-transition-duration:.5s;
   
 
 .Galeria {
+    background-color: $blanco;
 
    margin: auto;
     border: 1px solid $blanco;
    
-    width: 70%;  
+    width: 100%;  
     margin-top: 12.5em;
     margin-bottom: 8em;
     font-size: 16px;
@@ -33,7 +34,7 @@ $carousel-transition-duration:.5s;
 
 
 .Galeria_texto{
-    padding: 1.5em;
+    padding: 1.2em;
     text-align: center;
     margin: 0 auto;
     margin-top: 30px;
@@ -41,10 +42,10 @@ $carousel-transition-duration:.5s;
 
 
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.5em;
     letter-spacing: 2px;
-    color:$blanco ;
-    line-height: 3.75em;
+    color:rgb(26, 25, 25);
+    line-height: 3.3em;
     
 }       
 
@@ -71,19 +72,20 @@ $carousel-transition-duration:.5s;
 }
 
 .carousel-text{
-    background-color: rgba(53, 54, 54, 0.479);
+    background-color: #121313d1;
     padding-top: 20px;
     padding-bottom: 30px;
+    font-size: 1.3em;
 }
 .container-sm{
     max-width: 1000px;
 }
 .carousel-caption{
-    font-size: 2.5rem;
+    font-size: 1em;
 }
 
 .carousel-caption h5{
-    font-size: 2rem;
+    font-size: 1.3em;
 }
 
 .GaleriaContainer{

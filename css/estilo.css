@@ -373,7 +373,8 @@ a.nav-link.active {
     letter-spacing: 3px;
     font-size: 2.8em; }
   p.Titulo__texto {
-    font-size: 1.4rem; }
+    font-size: 1.2em;
+    padding: 0.9em; }
   h3.Caja-fechas__titulo {
     font-size: 1.3em; }
   h3.central2__text {
@@ -446,9 +447,17 @@ a.nav-link.active {
     text-align: center;
     margin: auto;
     font-size: 1.5em; }
+  /* experiencias */
+  div.bg-image1 {
+    background-position: 70% 50%;
+    height: 500px; }
+  div.Titulo {
+    top: 34%; }
+  h1.Titulo__1 {
+    margin: 25px auto; }
   /* seccion galeria */
   p.Galeria_texto {
-    font-size: 1rem;
+    font-size: 1em;
     line-height: 40px; }
   div.carousel {
     font-size: 10px; }
@@ -503,6 +512,10 @@ a.nav-link.active {
     background-position: top; }
   .trekk {
     background-position: top; }
+  div.carousel {
+    font-size: 8px; }
+  section.Visitas {
+    font-size: 14px; }
   div.contacto__contenedor {
     font-size: 10px; }
   form.Formulario {
@@ -561,10 +574,11 @@ a.nav-link.active {
   background-image: url("../imagenes/bahia.jpg");
   filter: grayscale 80%;
   -webkit-filter: grayscale(60%);
-  height: 800px;
+  height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 100px; }
+  margin-top: 100px;
+  background-position: bottom; }
 
 .Titulo {
   background-color: rgba(0, 0, 0, 0.79);
@@ -572,12 +586,10 @@ a.nav-link.active {
   color: #e8e7f0;
   width: 80%;
   font-size: 18px;
-  margin-top: 5.4em;
-  margin-bottom: 5.5em;
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -20%);
+  transform: translate(-50%, -17%);
   z-index: 2; }
 
 .Titulo__1 {
@@ -600,13 +612,13 @@ a.nav-link.active {
 
 /* Tarjetas */
 .Visitas {
-  padding: 10px;
-  margin-top: 50px;
+  margin-top: 3em;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  font-size: 16px; }
 
 .Visitas__titulo {
-  font-size: 24px;
+  font-size: 1.3em;
   color: black;
   font-weight: 600;
   text-transform: uppercase;
@@ -710,24 +722,25 @@ a.nav-link.active {
 
 } */
 .Galeria {
+  background-color: #e8e7f0;
   margin: auto;
   border: 1px solid #e8e7f0;
-  width: 70%;
+  width: 100%;
   margin-top: 12.5em;
   margin-bottom: 8em;
   font-size: 16px; }
 
 .Galeria_texto {
-  padding: 1.5em;
+  padding: 1.2em;
   text-align: center;
   margin: 0 auto;
   margin-top: 30px;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.5em;
   letter-spacing: 2px;
-  color: #e8e7f0;
-  line-height: 3.75em; }
+  color: #1a1919;
+  line-height: 3.3em; }
 
 /*------Tarjetas-------- */
 .carousel {
@@ -747,18 +760,19 @@ a.nav-link.active {
   height: 34.375em; }
 
 .carousel-text {
-  background-color: rgba(53, 54, 54, 0.479);
+  background-color: #121313d1;
   padding-top: 20px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  font-size: 1.3em; }
 
 .container-sm {
   max-width: 1000px; }
 
 .carousel-caption {
-  font-size: 2.5rem; }
+  font-size: 1em; }
 
 .carousel-caption h5 {
-  font-size: 2rem; }
+  font-size: 1.3em; }
 
 .GaleriaContainer {
   margin-top: 1.8em;
@@ -882,7 +896,7 @@ a.nav-link.active {
 .contacto__contenedor {
   margin-top: 35px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.692);
+  background-color: rgba(0, 0, 0, 0.842);
   border: 1px solid #0c0c0c;
   color: #e8e7f0;
   width: 80%;
@@ -1006,8 +1020,7 @@ input {
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #e8e7f0;
-  font-family: 'Open Sans Condensed', sans-serif;
   background-color: #000;
   font-size: 16px; }
