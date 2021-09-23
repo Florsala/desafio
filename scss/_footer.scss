@@ -9,7 +9,7 @@
      }
  
  .footer__contacto{
-     color:rgb(232, 231, 240) ;
+     color:$blanco;
      padding-top: 10px;
      font-weight: bold;
 
@@ -22,11 +22,11 @@
  }
 
  .footer__link:hover{
-     color: orange;
+     color: $orange;
  }
 
  .footer__link{
-     color:rgb(232, 231, 240) ;
+     color:$blanco ;
      text-decoration: none;
  } 
  
@@ -42,11 +42,11 @@
     }
  
     .footer__a{
-        color: rgb(232, 231, 240);
+        color: $blanco;
     }
    
  .footer__a:hover{
-     color: orange;
+     color: $orange;
  }
  
  .footer-end{

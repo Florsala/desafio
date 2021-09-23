@@ -1,5 +1,7 @@
 /*Index*/
-$blanco: rgb(232, 231, 240) ;
+$blanco: rgb(232, 231, 240);
+$orange:rgb(216, 137, 19);
+$ocre:#e0a064;
 
 
     
@@ -107,7 +109,7 @@ $blanco: rgb(232, 231, 240) ;
     font-weight: bold;
     text-transform: uppercase;
     transition: background-color 2s; 
-    color: beige;
+    color: $blanco;
     margin: 0 auto;
     align-items: center;
     display: flex;
@@ -116,7 +118,7 @@ $blanco: rgb(232, 231, 240) ;
     margin-bottom: 6.25rem;}
 
 .btn:hover{
-    background-color: rgb(216, 137, 19);
+    background-color:$orange;
 }
 
 .BotonIndex_a{

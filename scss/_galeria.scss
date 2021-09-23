@@ -1,4 +1,5 @@
 /* Seccion Galeria */
+$carousel-transition-duration:.10s;
 
 
    
@@ -77,47 +78,51 @@
 .carousel-caption h5{
     font-size: 2rem;
 }
+
+.GaleriaContainer{
+    margin-top: 1.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 16px;
+}
 .cardsGaleria{
     text-align: center;
-    width: 24rem;
-    height: 24rem;
+    width: 24em;
+    height: 25em;
     border: solid 1.5px black;
     border-radius: 6px;
-    padding-top: 1.7rem;
-    padding-bottom: 1.8rem;
-    margin: 1.25rem;
+    padding-top: 1.7em;
+    padding-bottom: 1.8em;
+    margin: 1.25em;
+    font-size: 16px;
 
-    margin-top: 150px;
     color: black;
-    background-color: #e0a064;
+    background-color: $ocre;
     
 
 h2{
     text-transform: uppercase;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding-top: 1.25em;
+    padding-bottom: 1.6em;
     font-size: 1.5em;
     font-weight: bold;
 }    
 }    
+
 
 .cardsGaleria  {
 
     img{
     border-radius: 8px;
     object-fit: cover;
-    width: 18rem;
-    height: 17.7rem;}
+    width: 18em;
+    height: 17.7em;}
 
 }
-.GaleriaContainer{
-    margin-top: 1.875rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-}
+
 
 

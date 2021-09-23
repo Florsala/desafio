@@ -40,6 +40,8 @@
 
     height: 500px;
 }
+
+/* mi seleccion */
      
 .articulos{
     display: flex;
@@ -77,12 +79,14 @@
     }
 /* galeria */
     
-   
-
 
     p.Galeria_texto{
         font-size: 1.4rem;
         text-align: center;
+    }
+
+    div.cardsGaleria{
+        font-size: 14px;
     }
 
     /* mi seleccion */
@@ -346,6 +350,18 @@ form.Formulario{
     .carousel{
         margin-bottom: 20px;
     }
+
+    div.cardsGaleria{
+        font-size: 12px;
+    }
+
+    div.GaleriaContainer{
+       
+        font-size: 12px;
+    }
+    
+
+
     
     h1.Head__title {
         
