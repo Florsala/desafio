@@ -2,6 +2,7 @@
 $blanco: rgb(232, 231, 240);
 $orange:rgb(216, 137, 19);
 $ocre:#e0a064;
+$height: 800px;
 
 
     
@@ -9,7 +10,7 @@ $ocre:#e0a064;
     background-image: url("../imagenes/lighthouse.jpg");
     filter: grayscale 80%;
     -webkit-filter: grayscale(40%);
-    height: 800px;
+    height: $height;
     background-repeat: no-repeat;
     background-size: cover; 
     margin-top: 100px;
