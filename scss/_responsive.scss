@@ -72,6 +72,10 @@
         font-size: 1.6em;
     }
 /* galeria */
+
+    div.Galeria{
+        font-size: 14px;
+    }
     
     div.carousel{
     font-size: 14px;
@@ -188,14 +192,14 @@
 
     /* Experiencias */
 
-    .bg-image1{
+    div.bg-image1{
         background-position: 70% 50%;
+        height: ($height)-300;
     }
 
 
    h1.Titulo__1 {
 
-    text-transform: capitalize;
     letter-spacing: 3px;
      font-size: 2.8em; 
     }
@@ -220,10 +224,10 @@
     align-items: center;
 }
 
-
-.Galeria{
+div.Galeria{
     font-size: 12px;
 }
+
 
 p.Galeria_texto{
     font-size: 1.2em;
@@ -301,6 +305,11 @@ form.Formulario{
     .bg-image{
         background-position: 20%;
     }
+
+    .central{
+        font-size: 12px;
+        text-align: start;
+        }
     
     /* contenedor img index */
     .cardsContainer{
@@ -346,16 +355,34 @@ form.Formulario{
     /* experiencias */
     div.bg-image1{
         background-position: 70% 50%;
-        height: 500px;
-        }
+        height: ($height)-400;
+    }
+
     div.Titulo{
         top: 34%;
     }
     h1.Titulo__1{
         margin: 25px auto;
     }
+
+    section.Visitas{
+        font-size: 12px;
+    }
       
     /* seccion galeria */
+
+    div.Galeria{
+        font-size: 9px;
+        text-transform: uppercase;
+        margin-bottom: 2em;
+        padding: 40px;
+        
+    }
+
+    h2.Galeria_titulo{
+        text-align: left;
+        padding: 0.5em;
+    }
 
     p.Galeria_texto{
         font-size: 1em;
@@ -472,13 +499,18 @@ form.Formulario{
             font-size: 8px;
         }
 
+        /* experiencias */
+
+        h1.Titulo__1 {
+        font-size: 1.5em;
+        padding: 10px 15px 5px 15px;
         
-        section.Visitas{
-            font-size: 14px;
-                 
         }
 
+        p.Titulo__texto {
+            font-size: 1em;}
 
+/* contacto */
         div.contacto__contenedor{
             font-size: 10px;
         }

@@ -13,25 +13,39 @@ $carousel-transition-duration:.5s;
     margin-top: 8.5em;
     margin-bottom: 8em;
     font-size: 16px;
-    padding: 4px;
+    padding: 60px;
 }
     
-   
 
-
-.Galeria_texto{
+.Galeria_head{
     background-color: #0000008f;
     padding: 1.2em;
-    text-align: center;
-    margin: 30px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.5em;
     letter-spacing: 2px;
     color:$blanco;
-    line-height: 3.3em;
+ 
     border: solid 2px $blanco;
     
+}   
+
+.Galeria_titulo {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 1.1em;
+    line-height: 1.9em;
+    text-align: center;
+    margin-top: 1.3em;
+
+}
+
+.Galeria_texto{
+    text-align: center;
+    margin: 1.8rem;
+    text-align: center;
+    font-size: 2em;
+    border: solid 1px #e8e7f0;
+    padding: 1.8em;
+    width: 50%;
+    margin: auto;
 }       
 
 /*------Tarjetas-------- */
