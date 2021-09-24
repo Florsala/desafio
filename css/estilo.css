@@ -333,7 +333,7 @@ a.nav-link.active {
     font-size: 14px; }
   /* contacto */
   div.contacto__contenedor {
-    font-size: 12px;
+    font-size: 10px;
     top: 30%; }
   form.Formulario {
     font-size: 14px; }
@@ -516,8 +516,9 @@ a.nav-link.active {
   /* contacto */
   div.bg-image4 {
     font-size: 10px; }
-  .contacto__contenedor {
-    top: 30%; }
+  div.contacto__contenedor {
+    top: 20%;
+    font-size: 8px; }
   form.Formulario {
     font-size: 10px;
     display: grid;
@@ -551,16 +552,15 @@ a.nav-link.active {
     font-size: 0.9em; }
   /* contacto */
   div.contacto__contenedor {
-    font-size: 10px; }
+    font-size: 7px; }
   form.Formulario {
     font-size: 8px;
     display: grid;
-    grid-template-columns: 80px 100px;
+    grid-template-columns: 120px 150px;
     grid-template-rows: repeat(6, 1fr) 2fr;
     align-content: center;
-    grid-gap: 15px;
-    justify-content: space-evenly;
-    justify-items: center; } }
+    grid-gap: 2em;
+    justify-items: flex-start; } }
 
 /*Pie de pagina*/
 .footer {
@@ -925,7 +925,7 @@ a.nav-link.active {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  margin-top: 100px;
+  margin-top: 6.25em;
   font-size: 16px; }
 
 .contacto__contenedor {
@@ -937,11 +937,11 @@ a.nav-link.active {
   width: 80%;
   margin-bottom: 100px;
   position: absolute;
-  top: 40%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -20%);
   z-index: 2;
-  font-size: 16px; }
+  font-size: 12px; }
 
 .contacto__titulo {
   margin-top: 70px;
@@ -1026,7 +1026,8 @@ input {
 .Formulario .Experiencia {
   grid-row: 4/5;
   grid-column: 1/2;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  text-align: start; }
 
 .Formulario #Experiencia {
   grid-row: 4/5;

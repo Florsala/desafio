@@ -110,7 +110,7 @@
 
     /* contacto */
    div.contacto__contenedor{
-    font-size: 12px;
+    font-size: 10px;
     top: 30%;
     }
     
@@ -480,8 +480,9 @@ form.Formulario{
       
     }
 
-    .contacto__contenedor{
-        top: 30%;
+    div.contacto__contenedor{
+        top: 20%;
+        font-size: 8px;
     }
 
     form.Formulario{
@@ -545,17 +546,17 @@ form.Formulario{
 
 /* contacto */
         div.contacto__contenedor{
-            font-size: 10px;
+            font-size: 7px;
         }
 
         form.Formulario{
             font-size: 8px;
             display: grid;
-            grid-template-columns: 80px 100px;
-            grid-template-rows: repeat(6, 1fr) 2fr;    
-            align-content: center;   
-            grid-gap:15px;
-            justify-content: space-evenly;
-            justify-items: center;
+            grid-template-columns: 120px 150px;
+            grid-template-rows: repeat(6, 1fr) 2fr;
+            align-content: center;
+            grid-gap: 2em;
+            justify-items: flex-start;
+        
         }
     }
