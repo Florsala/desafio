@@ -395,10 +395,17 @@ a.nav-link.active {
   .GaleriaContainer {
     font-size: 14px; }
   /* mi seleccion */
+  div.Head {
+    font-size: 16px;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em; }
+  section.articulos {
+    margin-top: 1.5rem;
+    font-size: 14px; }
   .card {
     width: 20em;
-    height: 25.4em; }
-  .card-img-top {
+    height: 26.5em; }
+  img.card-img-top {
     height: 14em; }
   h5.card__title {
     font-size: 1.3em; }
@@ -498,12 +505,14 @@ a.nav-link.active {
     font-size: 0.7em;
     margin: auto; }
   /* mi seleccion */
+  .Head__text {
+    margin-bottom: 1em; }
+  .Head__title {
+    margin-top: 2.3em; }
   .card {
     font-size: 13px; }
   div.bg-image3 {
-    height: 576px; }
-  section.articulos {
-    margin-top: 50px; }
+    height: 28em; }
   /* contacto */
   div.bg-image4 {
     font-size: 10px; }
@@ -533,6 +542,13 @@ a.nav-link.active {
     padding: 10px 15px 5px 15px; }
   p.Titulo__texto {
     font-size: 1em; }
+  /* mi seleccion */
+  div.bg-image3 {
+    height: 24em; }
+  div.Head {
+    top: 30%; }
+  p.Head__text {
+    font-size: 0.9em; }
   /* contacto */
   div.contacto__contenedor {
     font-size: 10px; }
@@ -613,7 +629,6 @@ a.nav-link.active {
 .Titulo__1 {
   text-transform: uppercase;
   font-size: 3.5em;
-  font-weight: bold;
   justify-content: center;
   letter-spacing: 0.07em;
   line-height: 1.5em;
@@ -832,10 +847,11 @@ a.nav-link.active {
 
 /*Seccion Mi_Seleccion*/
 .bg-image3 {
-  background-image: url("../imagenes/andes.jpg");
+  background-image: url(../imagenes/andes.jpg);
   filter: grayscale 80%;
   -webkit-filter: grayscale(40%);
-  height: 720px;
+  background-position: 50% 63%;
+  height: 34.3em;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -847,8 +863,8 @@ a.nav-link.active {
   color: #e8e7f0;
   width: 80%;
   font-size: 18px;
-  margin-top: 30px;
-  margin-bottom: 100px;
+  margin-top: 0.8em;
+  margin-bottom: 0.25em;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -856,8 +872,7 @@ a.nav-link.active {
   z-index: 2; }
 
 .Head__title {
-  font-family: 'Playfair Display', serif;
-  font-size: 3.6em;
+  font-size: 4.5em;
   color: #e8e7f0;
   margin-top: 50px;
   display: flex;
@@ -866,14 +881,13 @@ a.nav-link.active {
 .Head__text {
   color: white;
   width: 80%;
-  padding: 20px;
-  font-size: 1.75rem;
+  padding: 1.2em;
+  font-size: 1.5em;
   text-align: center;
   margin: 0 auto;
-  letter-spacing: 1px;
-  margin-top: 70px;
-  line-height: 2.5em;
-  margin-bottom: 50px; }
+  letter-spacing: 0.06em;
+  line-height: 2 em;
+  margin-bottom: 2em; }
 
 .articulos {
   display: flex;

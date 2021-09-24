@@ -244,12 +244,24 @@ div.carousel{
 }
 
 /* mi seleccion */
+
+div.Head{
+    
+    font-size: 16px;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;}
+    
+section.articulos{
+    margin-top: 1.5rem; 
+    font-size: 14px;
+           
+    }    
 .card{
     width: 20em;
-    height: 25.4em;
+    height: 26.5em;
 }
 
-.card-img-top{
+img.card-img-top{
     height: 14em;
 }
 
@@ -260,7 +272,7 @@ h5.card__title{
 p.card__text{
     font-size:1em;
    
-}
+} 
 
 div.bg-image4{
     font-size: 12px;
@@ -444,16 +456,21 @@ form.Formulario{
   
     /* mi seleccion */
 
+    .Head__text{
+        margin-bottom: 1em;
+    }
+    
+
+    .Head__title{
+        margin-top: 2.3em;
+    }
+
     .card{
         font-size: 13px;
     }
 
     div.bg-image3{
-        height: 576px;
-    }
-
-    section.articulos{
-        margin-top: 50px;
+        height: 28em;
     }
 
 
@@ -509,6 +526,22 @@ form.Formulario{
 
         p.Titulo__texto {
             font-size: 1em;}
+
+        /* mi seleccion */
+
+        div.bg-image3{
+            height: 24em;
+        }
+
+        div.Head{
+            top: 30%;
+           
+        }
+
+        p.Head__text{
+            font-size: 0.9em ;
+        
+        }
 
 /* contacto */
         div.contacto__contenedor{
