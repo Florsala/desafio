@@ -579,7 +579,7 @@ a.nav-link.active {
   font-weight: bold;
   letter-spacing: 4px;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.1em;
   margin-top: 2.5em; }
 
 .footer__link:hover {
@@ -606,8 +606,9 @@ a.nav-link.active {
 
 .footer-end {
   text-align: center;
-  margin-top: 30px;
-  font-size: 1.5em; }
+  margin-top: 30px; }
+  .footer-end h5 {
+    font-size: 0.97em; }
 
 /*Seccion Experiencias*/
 .bg-image1 {
@@ -767,7 +768,7 @@ a.nav-link.active {
   border: solid 2px #e8e7f0; }
 
 .Galeria_titulo {
-  font-size: 2.5em;
+  font-size: 2.3em;
   font-weight: bold;
   margin-bottom: 1.1em;
   line-height: 1.9em;
@@ -778,7 +779,7 @@ a.nav-link.active {
   text-align: center;
   margin: 1.8rem;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.8em;
   border: solid 1px #e8e7f0;
   padding: 1.8em;
   width: 50%;
@@ -842,7 +843,7 @@ a.nav-link.active {
     text-align: center;
     padding-top: 1.25em;
     padding-bottom: 1.6em;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold; }
 
 .cardsGaleria img {
@@ -1066,3 +1067,17 @@ body, html {
   color: #e8e7f0;
   background-color: #000;
   font-size: 16px; }
+
+.head_error {
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  width: 60%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column; }
+  .head_error h1 {
+    font-size: 1.4em;
+    padding: 1.1em; }
+  .head_error p {
+    padding: 1.1em; }
