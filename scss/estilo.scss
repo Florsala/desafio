@@ -20,22 +20,37 @@ body, html {
   font-size: 16px;}
 
   
+ .head_img{
+   font-size: 16px;
+   img{
+    width: 25.875em;
+    height: 28.125em;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+   }
+ }
+
+
   .head_error{
     align-items: center;
     justify-content: center;
     font-size: 18px;
     width: 60%;
-    margin: 100px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
 
   h1{
-    font-size: 1.4em;
+    font-size: 2.4em;
     padding: 1.1em;
   }
 
   p{
-    padding: 1.1em;
+    padding: 0.1em;
   }
   }
     

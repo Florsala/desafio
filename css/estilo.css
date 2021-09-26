@@ -564,7 +564,13 @@ a.nav-link.active {
   footer.footer {
     font-size: 12px; }
   .footer-end h5 {
-    font-size: 0.8em; } }
+    font-size: 0.8em; }
+  div.head_img {
+    font-size: 12px; }
+  div.head_error {
+    font-size: 14px; }
+  footer.footer {
+    margin-top: 3.34em; } }
 
 /*Pie de pagina*/
 .footer {
@@ -1068,16 +1074,28 @@ body, html {
   background-color: #000;
   font-size: 16px; }
 
+.head_img {
+  font-size: 16px; }
+  .head_img img {
+    width: 25.875em;
+    height: 28.125em;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; }
+
 .head_error {
   align-items: center;
   justify-content: center;
   font-size: 18px;
   width: 60%;
-  margin: 100px auto;
+  margin: 30px auto;
   display: flex;
   flex-direction: column; }
   .head_error h1 {
-    font-size: 1.4em;
+    font-size: 2.4em;
     padding: 1.1em; }
   .head_error p {
-    padding: 1.1em; }
+    padding: 0.1em; }
